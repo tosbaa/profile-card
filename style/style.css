@@ -1,0 +1,92 @@
+html {
+    font-size: 10px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    font-size: 1.8rem;
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 20px  , bottom right;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.profile-card {
+    margin: auto;
+    margin-top: 10rem;
+    width: 40rem;
+    border-radius: 2rem;
+    display: grid;
+    grid-template-rows: 2fr 3fr;
+    background-color: white;
+}
+
+.card-background {
+    flex: 2;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-size: cover;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.profile-info-wrapper {
+    flex: 3;
+}
+
+.profile-info {
+    margin-top: -5rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img {
+    border-radius: 50%;
+    border: 0.5rem solid white;
+    position: relative;
+    top: -5rem;
+    left: 16rem;
+}
+
+.name, .age {
+    display: inline-block;
+}
+
+.age {
+    margin-left: 1rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: grey;
+}
+
+.location {
+    display: block;
+    margin-top: -1rem;
+    font-weight: 300;
+    color: grey;
+}
+
+.profile-stats {
+    border-top: 0.2rem solid grey;
+    border-width: thin;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+li {
+    text-align: center;
+}
+
+span {
+    display: block;
+    margin-top: -1rem;
+    font-size: 1.8rem;
+    color: grey;
+}
