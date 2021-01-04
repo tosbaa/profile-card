@@ -15,6 +15,7 @@ body {
 .profile-card {
     margin: auto;
     margin-top: 10rem;
+    height: 45rem;
     width: 40rem;
     border-radius: 2rem;
     display: grid;
